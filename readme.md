@@ -4,4 +4,5 @@ Users can write code that follows the lanugage documentation.
 
 To Run:
 Clone repository onto local machine, write your own *.tau file and use the command below to run 
+
 python3 -m tau.main --file fileName.tau
