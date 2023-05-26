@@ -1,0 +1,20 @@
+func main():void{
+    var a : int
+    var b : int
+    var c : int
+    a = 1 
+    b = 10
+    c = 11
+    while (a < 10){
+        print b 
+        while (b < 15){
+            print c
+            while (c < 20 and c > 10){
+                c = c + 1
+                print a
+            }
+            b = b + 1
+        }
+        a = a + 1
+    }
+}

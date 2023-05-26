@@ -1,0 +1,11 @@
+func main() : void{
+    var x : int 
+    var y : int
+    x = 100
+    y = 100
+    {
+        var ans: bool 
+        ans = x and y
+    }
+}
+//and should have boolean literals not int literals

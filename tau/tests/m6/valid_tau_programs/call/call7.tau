@@ -1,0 +1,12 @@
+func foo1():void{
+    print(10 + 9 * 4 / 2)
+}
+func foo2(a : int, b : int, c : int):void{
+    var d : int
+    d = a + b + c
+    print(d)
+}
+func main():void{
+    call foo1()
+    call foo2(10, 11, 12)
+}

@@ -1,0 +1,4 @@
+func main():void{
+    var b : bool
+    b = 2 < 1
+}

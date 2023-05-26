@@ -1,0 +1,53 @@
+func foo() : void{
+    print true
+    print false
+}
+func bar() : void{
+    print true and false
+    print false or false
+}
+func baz() : void{
+    print 10 > 5
+    print 10 <= (5 * 5)
+}
+func qux() : void{
+    print 10 == 5
+    print 10 != (5 * 5)
+}
+func quux() : void{
+    print 10 + 5
+    print 10 - 5
+}
+func quuz() : void{
+    print 10 * 5
+    print 10 / 5
+}
+func corge() : void{
+    print 10 - (-5)
+    print 10  / (-5)
+}
+func grault() : void{
+    if true and false or true and false {
+        print 10 <= 8 + 9
+    }
+    else {
+        print 5
+    }
+    print 10 
+}
+func main() : void{
+    var a : int 
+    a = 3
+    if true {
+        call foo()
+        call bar()
+        call baz()
+        call qux()
+    }
+    else {
+        call quux()
+        call quuz()
+        call corge()
+        call grault()
+    }
+}

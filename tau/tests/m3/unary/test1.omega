@@ -1,0 +1,7 @@
+func main(){
+    var x : bool 
+    x = true 
+    print x
+    x = not(x)
+    print x
+}

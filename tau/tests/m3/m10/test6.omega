@@ -1,0 +1,10 @@
+func main(){
+    var test1: int 
+    var test2: int
+    test1 = 100
+    test2 = -100
+    test1 = -test1
+    test2 = -test2
+    print test1
+    print test2
+}

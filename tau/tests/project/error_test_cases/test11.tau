@@ -1,0 +1,7 @@
+func f1(x:int) : void{
+    print x
+}
+func main() : void{
+    call f(12)
+}
+// calling an undefined function.

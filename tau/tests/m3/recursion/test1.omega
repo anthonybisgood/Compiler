@@ -1,0 +1,23 @@
+func printPattern (n:int, m:int, flag: int):int{
+    print m
+    if (flag == 0 and n == m){
+        return 0
+    }
+    if (flag == 1){
+        if m - 5 > 0 {
+            call printPattern(n, m - 5, 1)
+        }
+        else{
+            call printPattern(n, m - 5, 0)
+        }
+    }
+    else{
+        call printPattern(n, m + 5, 0)
+    }
+
+}
+func main(){
+    var n : int 
+    n = 16 
+    call printPattern(n, n, 1)
+}

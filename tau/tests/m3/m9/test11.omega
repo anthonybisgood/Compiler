@@ -1,0 +1,52 @@
+func f1(){
+    var b : int
+    {
+        var a : int
+        {
+            print 29
+            print a
+        }
+    }
+    print 1 
+    print 2 
+    print 3
+    print 1000
+    print 2000
+}
+func f2(){
+    {
+        var a: int 
+        {
+            var b: int
+            {
+                var c: int 
+                print a
+                print b 
+                print c
+            }
+        }
+    }
+}
+func f3():int{
+    var b: int
+    var c : int
+    {
+        print 13
+        {
+            {
+                print 14
+            }
+        }
+    }
+    return 20
+}
+func main(){
+    call f1()
+    call f2()
+    print f3()
+    print f3()
+    print 1
+    print 2 
+    print 3
+    print f3()
+}

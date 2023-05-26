@@ -1,0 +1,9 @@
+func f(p : int):int{
+    print p
+    return p+2
+}
+func main():void{
+    var x : int 
+    x = 4
+    print f(f(x)+3)
+}

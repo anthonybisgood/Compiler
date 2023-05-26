@@ -1,0 +1,28 @@
+func func1(m:int):int{
+    var k : bool 
+    var s : int 
+    s = 2
+    {
+        k = true
+        print k
+    }
+    {
+        s = 200
+        print s
+    }
+    return s
+}
+func main(){
+    var m : int 
+    var j : int 
+    {
+        var k: int 
+        k = func1(m)
+        print k
+    }
+    m = 100
+    {
+        m = 2000
+        print m 
+    }
+}

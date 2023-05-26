@@ -1,0 +1,10 @@
+func goodfunc():bool{
+    print 10
+    return true
+}
+func main():void{
+    var x : bool 
+    x = false
+    x = true and goodfunc()
+    print x
+}

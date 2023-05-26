@@ -1,0 +1,11 @@
+func main()  : void{
+    var total : int 
+    var cur : int
+    total = 1
+    cur = 6
+    while (cur != 1) {
+        total = total * cur
+        cur = cur - 1
+    }
+    print total
+}

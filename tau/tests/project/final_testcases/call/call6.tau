@@ -1,0 +1,15 @@
+func g(a: int, b: int, c: int): int {
+    print a
+    print b
+    print c
+
+    return a + b + c
+}
+func f1(a: int): int {
+    print a
+    return a + 1
+}
+
+func main(): void {
+    call f1(f1(f1(g(2, 4, f1(5)))))
+}

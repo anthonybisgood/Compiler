@@ -1,0 +1,14 @@
+func main() : void {
+    print 12
+    {
+        print 34
+        {   
+            var a : int 
+            a = 20
+            print 56
+        }
+        print a
+        print 78
+    }
+}
+// accesing a variable outside its scope

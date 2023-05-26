@@ -1,0 +1,13 @@
+func f(x:int):int{
+    return x + 2
+}
+func g(y:int):int{
+    return y + 9
+}
+func main():void{
+    var x : int
+    x = 90 
+    print x
+    print f(f(f(3) + f(f(f(4))))) 
+    print g(g(3) + g(g(g(5)) + g(g((6)))))
+}

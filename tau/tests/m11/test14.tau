@@ -1,0 +1,17 @@
+func main() : void {
+    var k : int
+    k = 0
+    {
+        var i : bool
+        i = true
+        while k < 15 {
+            k = k + 1
+            if i {
+                i = not i
+            } else {
+                i = true
+            }
+            print i
+        }
+    }
+}

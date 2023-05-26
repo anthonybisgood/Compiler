@@ -1,0 +1,45 @@
+func foo2(a:int, b:int, c:int) : void{
+    print 800
+    {
+        print a 
+        {
+            {
+                print b 
+                print c
+            }
+        }
+    }
+    print 34
+    print 35
+}
+func foo1() : void{
+    var a:int 
+    var b : int
+    {
+        var c : int 
+        call foo2 (a,b,c)
+    }
+    {
+        var d : int 
+        call foo2(a,b,d)
+    }
+    {   
+        var d : int
+        {
+            var c : int 
+            call foo2 ( a, c, d)
+        }
+    }
+}
+func main() : void{
+    print 100
+    print 101
+    {
+        call foo1()
+    }
+    {
+        {
+            print 102
+        }
+    }
+}

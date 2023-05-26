@@ -1,0 +1,37 @@
+a bunch of comments starting with //and ending with a newline
+// is a comment in tau
+// this is a comment
+// this is a comment // this is comment // 12344555 // some gibberish
+
+aoo boo coo doo 
+eoo foo goo hoo 
+breeze
+continuation
+folklore
+
+mile
+term
+orthodox
+economy
+auditor
+mold
+resolution
+aviation
+cereal
+helicopter
+mutter
+wage
+accumulation
+trouble
+basic
+kettle
+industry
+pool
+beautiful
+terms
+distortion
+treasurer
+board
+matter abc def ghi jkl mn o pqrs        tuv    xyz 
+123 456 789 9 8 7 6 5 4 3 2 1
+

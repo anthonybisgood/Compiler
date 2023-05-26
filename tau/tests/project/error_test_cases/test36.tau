@@ -1,0 +1,11 @@
+func main() : void {
+    var a : bool
+    var b : bool
+    var c :  bool
+
+    var d : int
+
+    d = a and  b and c 
+    print d
+}
+// wrong assignment type

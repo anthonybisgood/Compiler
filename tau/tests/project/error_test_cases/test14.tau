@@ -1,0 +1,6 @@
+func main() : void{
+    var x : true 
+    print x
+}
+
+// wrong declaration

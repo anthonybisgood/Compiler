@@ -1,0 +1,19 @@
+func f1(t:int, k:int){
+    var y : int 
+    var z : int 
+    t = - t 
+    z = z + t 
+    y = 90
+    y = t + t + z + y 
+    print y 
+    print z 
+    y = -(-(-y))
+    print y
+}
+func main(){
+    var t : int 
+    var k : int 
+    t = 20 
+    k = 90 
+    call f1(t,k)
+}

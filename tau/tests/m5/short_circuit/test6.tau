@@ -1,0 +1,12 @@
+func foo():bool{
+    print 1222
+    return true
+}
+func main():void{
+    if (true and false or true and false or foo() ){
+        print 12
+        print 14
+    }else{
+        print 0
+    }
+}

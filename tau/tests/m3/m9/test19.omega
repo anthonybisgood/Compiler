@@ -1,0 +1,51 @@
+func f2(k:int, l:int){
+    print 12
+    {
+        var a: int
+        {
+            print a
+            {
+                {
+                    var c: int 
+                }
+            }
+        }
+    }
+    {
+        {
+            print 200
+        }
+    }
+}
+func foo(m:int, n:int){
+    print m
+    {
+        {
+            print n
+        }
+    }
+    call f2(m,n)
+}
+func f1(a:int,b:int){
+    print 11
+    print 12
+    {
+        var a: int
+        {
+            var b: int 
+            {
+                call foo(a,b)
+            }
+        }
+    }
+}
+func main(){
+    var a: int 
+    {
+        var c : int 
+        {
+            call f1(a,c)
+            
+        }
+    }
+}

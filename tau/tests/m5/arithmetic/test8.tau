@@ -1,0 +1,25 @@
+func main():void{
+    var m : int 
+    var n : int 
+    var o: int 
+    m = 90 
+    n = 80
+    o = 70 
+    m = m+ n 
+    n = n + m + o 
+    o = o + m + n / n * m * n + 90000 * 79
+    {
+        o = o + 10
+        print 0
+        {
+            o = o + m - n + 900000
+            {
+                print o
+            }
+            {
+                o = 10 + 10
+                print o
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+func f1(o:int):int{
+    var t : int 
+    t = 200 
+    t = t * o 
+    t = t - o 
+    t = t / o + t - o 
+    return t
+}
+func main():void{
+    var l : int 
+    var m : int 
+    l = 70
+    m = 900 - 200 / 65 + l 
+    print l 
+    m = m + l 
+    print m 
+    print f1(m)
+}

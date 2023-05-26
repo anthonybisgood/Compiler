@@ -1,0 +1,21 @@
+func main(){
+    var a : int 
+    var b : int 
+    a = 10
+    b = 20
+    {
+        var ans : bool 
+        {
+            ans = a < b 
+            print ans
+        }
+        {
+            ans = (a == 10)
+            print ans 
+        }
+        {
+            ans = (a == 20)
+            print ans
+        }
+    }
+}

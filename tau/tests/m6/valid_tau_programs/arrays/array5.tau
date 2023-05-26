@@ -1,0 +1,19 @@
+func foo( a : [] int): void {
+    var b : [2+3] int
+
+    b[2] = a[1]
+    b[0] = a[0]
+    b[1] = a[0]
+    b[3] = a[0]
+    b[4] = a[1]
+}
+func main():void{
+    var array : [2] int
+    array[0] = 1
+    array[0] = 2
+    array[0] = 3
+    array[1] = 4
+    array[1] = 5
+    array[1] = 6
+    call foo(array)
+}

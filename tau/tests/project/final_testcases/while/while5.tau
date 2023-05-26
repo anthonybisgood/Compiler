@@ -1,0 +1,12 @@
+func decrement(a : int) : int {
+    return a + 1
+}
+func main() : void {
+    var a : int 
+    a = 10
+
+    while a < 21{
+        print a 
+        a = decrement(decrement(a))
+    }
+}

@@ -1,0 +1,33 @@
+func f2(c:int) : void{
+    print 1 
+    {
+        var j : int
+        print 2  
+    }
+}
+func foo(j:int, k:int):int{
+    print 101
+    print 102
+    {
+        print 1
+        print 1001
+        {
+            print 1002
+        }
+    }
+    return 200
+}
+func main() : void{
+    var b :int 
+    {
+        var c : int 
+        call f2(c)
+    }
+    {
+        var j : int
+        {
+            var k : int 
+            print foo(j,k)
+        }
+    }
+}

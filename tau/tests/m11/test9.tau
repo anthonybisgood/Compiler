@@ -1,0 +1,35 @@
+func foo1() : void{
+    print 9 
+    {
+        print 10
+    }
+    {
+        print 11
+    }
+    {
+        var a : bool 
+        a = true
+        if a and true {
+            print 1
+        }
+        else {
+            print 2
+        }
+    }
+
+}
+func main() : void{
+    call foo1()
+    print 3
+    {
+        print 4
+    }
+    {
+        print 6
+    }
+    print 100
+    print 200 
+    {
+        print 7
+    }
+}

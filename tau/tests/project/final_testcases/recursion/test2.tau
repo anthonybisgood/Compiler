@@ -1,0 +1,19 @@
+func product (x:int, y:int):int{
+    if (x<y){
+        return product(y,x)
+    }
+    if y != 0 {
+        return (x + product(x, y-1))
+    }
+    else{
+        return 0
+    }
+}
+
+func main() : void{
+    var x : int 
+    var y: int 
+    x = 5 
+    y = 2
+    print(product(x,y))
+}

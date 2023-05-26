@@ -1,0 +1,22 @@
+func isEven(x:int):bool{
+    var isEven:int
+    var i : int
+    i = 1
+    isEven = 1
+    while i <= x{
+        isEven = -isEven
+        i = i + 1
+    }
+    if isEven == 1{
+        return true
+    }
+    else{
+        return false
+    } 
+}
+
+func main(){
+    var x : int 
+    x = 97
+    print isEven(x)
+}

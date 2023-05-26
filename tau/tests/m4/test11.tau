@@ -1,0 +1,21 @@
+func main():void{
+    var b : bool
+    var c : bool
+    var a : bool
+    if a{
+        print 1
+    }
+    else{
+        if b{
+            print 2
+        }
+        else{
+            if c{
+                print 3
+            }
+            else{
+                print 4
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+func f1(a:int) : int{
+    print 12
+}
+func f2(b:int) : int{
+    print 12
+    print 13
+}
+func main() : void{
+    var a: int 
+    call f1(a)
+    {
+        call f1(a)
+        {
+            {
+                call f1(a)
+            }
+        }
+    }
+    {
+        {
+            var b: int
+            {
+                print b
+                {
+                    call f2(b)
+                }
+            }
+        }
+    }
+}

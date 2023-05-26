@@ -1,0 +1,19 @@
+func f2() : int{
+    var a : int
+    a = 91
+    return a
+}
+func f1(a : int):void{
+    var b : int
+    b = 37
+    b = a * b
+    print b
+}
+func foo():void{
+    var a : int
+    a = f2()
+    call f1( a)
+}
+func main():void{
+    call foo()
+}

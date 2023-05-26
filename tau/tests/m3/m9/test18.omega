@@ -1,0 +1,33 @@
+func moo(m:int, o:int):int{
+    print 12
+    print 13
+    {
+        print 15
+        {
+            return 90
+        }
+    }
+    return 100
+}
+func main(){
+    print 15
+    print 16
+    print 17
+    {
+        {
+            var m: int 
+            {
+                {
+                    {
+                        var n: int 
+                        print n
+                    }
+                    {
+                        var o: int 
+                        print moo(m,o)
+                    }
+                }
+            }
+        }
+    }
+}

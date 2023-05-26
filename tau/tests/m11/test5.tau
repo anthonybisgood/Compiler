@@ -1,0 +1,8 @@
+func main() : void{
+    var i : int 
+    var j : bool
+     i = 10
+     j = true
+     print(i)
+     print(j)
+}

@@ -1,0 +1,29 @@
+func foo(a:bool , b: bool){
+    var ans : bool 
+    ans = a and b 
+    print ans
+}
+func foo1(a: bool , b: bool){
+    var ans: bool 
+    a = not(a)
+    ans = a or b 
+    print ans
+}
+func foo2(a:bool, b:bool){
+    var ans: bool 
+    a = not(a)
+    b = not(b)
+    ans = a and b 
+    print ans
+}
+func main(){
+    var x : int 
+    var y : int 
+    var m : bool 
+    var n : bool 
+    m = true 
+    n = true
+    call foo(m,n)
+    call foo1(m ,n)
+    call foo2(m, n)
+}

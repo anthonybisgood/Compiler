@@ -1,0 +1,18 @@
+func main(){
+    var a : bool 
+    var b : bool 
+    var x : int 
+    x = 20
+    a = true 
+    b = false
+    while x > 0 and x < 21{
+        a = a and b 
+        b = a or b 
+        a = a or b 
+        b = not(a)
+        x = x - 1
+        print x
+    }
+    print a 
+    print b
+}

@@ -1,0 +1,16 @@
+func f1(i:int, j: bool):int{
+    var k1:int 
+    k1 = 90
+    print i 
+    print j 
+    print k1 
+    return k1
+}
+func main(){
+    var i : int 
+    var j : bool
+    i = 90
+    j = false
+    i = f1(i,j)
+    print(i)
+}

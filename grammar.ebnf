@@ -1,0 +1,33 @@
+grammar: funcDec {funcDec} .
+funcDec: "func" ID "(" [varNameType {"," varNameType}] ")" [":" typeName] compoundStmt .
+
+funcCall: "call" ID funcAssignCall .
+funcAssignCall: "(" [(expr) {"," (expr)}] ")" .
+
+compoundStmt: "{" {varDec} {stmt} [returnStmt] "}" .
+
+stmt: whileStmt | compoundStmt | ifStmt | print | funcCall | varAssignment.
+
+returnStmt: "return" (expr) .
+whileStmt: "while" expr compoundStmt .
+ifStmt: "if" expr compoundStmt ["else" compoundStmt] .
+print: "print" (expr) .
+varAssignment: ID [arrayIndex] "=" (expr) .
+
+expr: expr1 {"or" expr1} .
+expr1: expr2 {"and" expr2} .
+expr2: expr3 {operators expr3} .
+expr3: expr4 {subPlus expr4} .
+expr4: base {divTimes base} .
+base: {"not" | "-"} | (ID [funcAssignCall|arrayIndex] | INT | bool | "(" expr ")").
+
+varDec: "var" varNameType .
+varNameType: ID [":" typeName] .
+
+arrayIndex: "[" (expr) "]" {"[" (expr) "]"} .
+
+bool: "true" | "false" .
+typeName: "void" | "int" | "bool" | ("[" [expr] "]" typeName ) .
+divTimes: "/" | "*" .
+subPlus: "-" | "+" .
+operators: "<" | "<=" | "==" | "!=" | ">" | ">=" .

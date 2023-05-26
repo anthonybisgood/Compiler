@@ -1,0 +1,14 @@
+func main():void{
+    var a : int 
+    a = 10
+    if (a == 10){
+        var c : int 
+        c = 20
+        print(c)
+    }
+    else{
+        var d : int 
+        d = 30
+        print(d)
+    }
+}

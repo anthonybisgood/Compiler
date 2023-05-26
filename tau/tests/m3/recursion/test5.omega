@@ -1,0 +1,27 @@
+func getRemainder(num:int , divisor:int):int{
+    return (num - divisor * (num / divisor))
+}
+func isPrime(n:int , i:int):bool{
+    var rem : int
+    if (n <= 2){
+        if n == 2{
+            
+            return true
+        }
+        else{
+            return false
+        }
+    } 
+    rem = getRemainder(n,i)
+    if (rem == 0){
+        return false
+    }
+    if (i * i > n){
+        return true
+    }
+    return isPrime(n, i + 1)
+}
+func main(){
+    print isPrime(173,2)
+}
+ 

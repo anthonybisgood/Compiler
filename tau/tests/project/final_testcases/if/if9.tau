@@ -1,0 +1,19 @@
+func f(a : int, b : int) : int{
+    return a + b
+}
+func foo(a :int, b :int, c : int, d : int): bool{
+    if a + b + c + d > 10{
+        return false
+    }
+    else{
+        return true
+    }
+}
+func main() : void{
+    if foo(1, f(2,3), f(3, 4) , 7){
+        print 34
+    }
+    else{
+        print 35
+    }
+}

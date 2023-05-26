@@ -1,0 +1,52 @@
+func foo1(m:int, k:int){
+    var too: int 
+    too = 100
+    print too 
+    {
+        {
+            too = 234
+            {
+                too= 345
+            }
+        }
+    }
+    print too
+}
+func f1(c:bool, m:int, k:int){
+    print c 
+    call foo1(m,k)
+}
+func f2(j:int){
+    print j 
+    {
+        {
+            var k : int 
+            {
+                var m: int 
+                {
+                    var c: bool 
+                    {
+                        c = true 
+                        m = 1000
+                        k = 2000
+                        call f1(c,m,k)
+                    }
+                }
+            }
+        }
+    }
+}
+func main(){
+    var j : int 
+    {
+        {
+            {
+                {
+                    j = 10 
+                }
+            }
+        }
+    }
+    print j 
+    call f2(j)
+}

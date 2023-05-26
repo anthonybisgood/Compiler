@@ -1,0 +1,10 @@
+func f1(x:int):int{
+    x = x * 5
+    return x
+}
+func main():void{
+    var x : int 
+    x = 8
+    print f1(f1(x) * f1(x) - f1(x+ f1(x)))
+    print f1(x)
+}

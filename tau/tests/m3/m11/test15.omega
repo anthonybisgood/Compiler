@@ -1,0 +1,25 @@
+func foo(i : int , j : int){
+    i = 90 
+    j = 100 
+    if i + j > 100 {
+        print i+j
+    }
+    if i + j < 200 {
+        print i - j
+    }
+    {
+        i = 30 
+        j = 40
+        if i * j > 9000{
+            print 2345
+        }
+        else{
+            print 345
+        }
+    }
+}
+func main(){
+    var i : int 
+    var j : int 
+    call foo(i, j)
+}

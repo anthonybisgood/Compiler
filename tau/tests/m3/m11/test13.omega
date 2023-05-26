@@ -1,0 +1,15 @@
+func main(){
+    var i : int 
+    i = 100
+    {
+        var b : bool 
+        while i != 0{
+            b = not(b)
+            b = b and true 
+            b = b or false
+            i = i - 1
+        }
+        print b
+    }
+    
+}

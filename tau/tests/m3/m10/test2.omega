@@ -1,0 +1,8 @@
+func f1(t:int){
+    print t
+}
+func main(){
+    var t1 : int 
+    t1 = 1000
+    call f1(t1)
+}

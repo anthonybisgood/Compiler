@@ -1,0 +1,20 @@
+func f1(x:int):int{
+    var i : int 
+    i = 0 
+    while i < 5 {
+        x = x + 5
+        i = i + 1
+    }
+    return x
+}
+func f3(y:int):int{
+    print f1(f1(10))
+    return y + f1(f1(y))
+}
+func f(y:int):int{
+    y = y + f1(f3(y) - f3(f3(10)))
+    return y
+}
+func main():void{
+    print f1(f3(12) + f3(9) - f(5) * f(f(10) / f(3)))
+}

@@ -1,0 +1,6 @@
+func main():void{
+    var a : int 
+    a = 25
+    print a
+    print a / 10
+}

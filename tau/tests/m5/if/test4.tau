@@ -1,0 +1,19 @@
+func foo(x:int, y:int):void{
+    print x
+    print y
+    if x < 10{
+        if y < 10{
+            print x 
+            print y
+        }
+        else{
+            print x
+        }
+    }
+    else{
+        print 100
+    }
+}
+func main():void{
+    call foo(9,200)
+}

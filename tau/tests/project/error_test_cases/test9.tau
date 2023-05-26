@@ -1,0 +1,5 @@
+func main() : int {
+    print 10
+    return true
+}
+// expected a return of int

@@ -1,0 +1,17 @@
+func main():void{
+    var aa : int 
+    var bb : int
+    var cc : int
+    var dd : int
+    var ee : int
+    aa = 1
+    bb = aa + 1
+    cc = aa + bb
+    dd = aa + bb + cc
+    ee = aa + bb + cc + dd
+    print(ee)
+    print(dd)
+    print(cc)
+    print(bb)
+    print(aa)
+}

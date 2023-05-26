@@ -1,0 +1,13 @@
+func foo():bool{
+    print 10
+    return true
+}
+func main():void{
+    var x : int 
+    x = 0
+    if true or foo(){
+        x = 20
+    }
+    print x
+    
+}

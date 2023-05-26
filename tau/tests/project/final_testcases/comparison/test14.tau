@@ -1,0 +1,10 @@
+func main() : void {
+    var a : bool
+    var b : bool
+    var c : bool
+    a = true
+    b = false
+    c = true
+    print a >= c
+    print a >= b
+}

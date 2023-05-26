@@ -1,0 +1,35 @@
+func falsefunc(): bool {
+    return false
+}
+func main(): void {
+    var a : bool
+
+    a = true
+    print a < falsefunc()
+    {
+        var a : bool
+        a = false
+        print a <= falsefunc()
+    }
+    {
+        var a : bool
+        a = true
+        print a > falsefunc()
+    }
+    {
+        var a : bool
+        a = false
+        print a >= falsefunc()
+    }
+    {
+        var a : bool
+        a = true < true
+        print a == falsefunc()
+    }
+
+    {
+        var a : bool
+        a = false < falsefunc()
+        print a != falsefunc()
+    }
+}

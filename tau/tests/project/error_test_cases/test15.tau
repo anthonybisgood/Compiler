@@ -1,0 +1,9 @@
+func foo(x:int) : void{
+    var y : int 
+    y = 90
+    return x+y
+}
+func main() : void{
+    call foo(12)
+}
+// invalid return type

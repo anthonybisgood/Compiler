@@ -1,0 +1,17 @@
+func main():void{
+    var abcd : bool
+    while abcd {
+        if abcd{
+            print 123
+        }else{
+            var a : bool
+            while a{
+                var c : bool
+                print 123
+                while c{
+                    print 34567
+                }
+            }
+        }
+    }
+}

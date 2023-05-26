@@ -1,0 +1,15 @@
+func g():int{
+    return 1
+}
+func e():int{
+    return 2
+}
+func f1():int{
+    return 3
+}
+func f(x:int, y:int, z:int):int{
+    return x + y + z
+}
+func main():void{
+    print f(g(), e(), f1())
+}

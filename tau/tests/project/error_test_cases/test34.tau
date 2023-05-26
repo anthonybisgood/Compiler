@@ -1,0 +1,10 @@
+func main() : void {
+    var a : bool
+    var b : bool
+    var c : int
+
+    var d : bool
+
+    d = a and  b + c 
+}
+// invalid operand types

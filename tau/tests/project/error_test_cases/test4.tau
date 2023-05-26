@@ -1,0 +1,8 @@
+func f(x:int) : void{
+    print x 
+    print x + 1
+}
+func main() : void{
+    call f1(12)
+}
+// function is not defined but called

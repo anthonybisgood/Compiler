@@ -1,0 +1,5 @@
+func main() : bool {
+    print 12
+
+    retrun 100
+}

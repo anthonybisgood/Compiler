@@ -1,0 +1,7 @@
+func main() : void {
+    print 1122
+}
+func main() : void {
+    print 222
+}
+// redefinition of main

@@ -1,0 +1,48 @@
+func f1(a:int, b:int , c:int){
+    var m: int 
+    var n: int 
+    var o: int
+    {
+        var p: int
+        {
+            var q: int
+        }
+    }
+    print 1
+    print 2 
+    print 3
+}
+func f2(a:int, b:int):int{
+    print 10
+    {
+        print a
+        {
+            var c: int 
+        }
+    }
+    {
+        {
+            var m : int 
+            var b: int
+        }
+    }
+    return 10000
+}
+func main(){
+    print 1
+    {
+        var a : int 
+        {
+            var b : int 
+            {
+                {
+                    {
+                        var c: int
+                        call f1(a,b,c)
+                    }
+                }
+                print f2(a,b)
+            }
+        }
+    }
+}

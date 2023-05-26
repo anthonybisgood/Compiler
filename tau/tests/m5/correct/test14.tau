@@ -1,0 +1,12 @@
+func g(x:int):int{
+    return 10
+}
+func e(x:int):int{
+    return 20
+}
+func f(x:int):int{
+    return x
+}
+func main():void{
+    print f(g(1)*g(g(4)) * e(e(e(4)+3)))
+}

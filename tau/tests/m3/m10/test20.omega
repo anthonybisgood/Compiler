@@ -1,0 +1,9 @@
+func main(){
+    var k: int 
+    var j : int 
+    k = 10 
+    j = 10 
+    k = k + j 
+    k = k - j - k
+    print k
+}

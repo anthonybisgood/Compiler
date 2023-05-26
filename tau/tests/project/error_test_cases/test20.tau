@@ -1,0 +1,11 @@
+func f1(x:int) : void{
+    call f2(12)
+}
+func f2(x:int) : void{
+    print 13
+    print x
+}
+func main() : void{
+    call f1(x)
+}
+//f2 should be defined above f1

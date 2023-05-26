@@ -1,0 +1,30 @@
+func f1():int{
+    print 12 
+    print 13 
+    print -14 
+    {
+        {
+            {
+                {
+                    print 12
+                }
+            }
+        }
+    }
+    return 20
+}
+func f2(i:int){
+    var k : int 
+    var j : int 
+    k = 100 
+    print k 
+    print i 
+    j = f1()
+    print j
+}
+func main(){
+    var j : bool 
+    j = false 
+    print not j 
+    call f2(10)
+}

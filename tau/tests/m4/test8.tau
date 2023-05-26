@@ -1,0 +1,26 @@
+func foo(a : int, b : int, c : int) :int {
+    var d : int
+    var e : int
+    var f : int
+    var g : bool
+    while g {
+        print 123
+        print 345
+        print 567
+        print 675
+        return 123
+    }
+}
+func main():void{
+    var a : int
+    var b : int
+    var c : int
+    var d : bool
+    while d {
+        print 123
+        print 345
+        print 567
+        print 675
+        call foo(a, b, c)
+    }
+}

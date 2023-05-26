@@ -1,0 +1,11 @@
+func main():void{
+    var x : int 
+    x = 2
+    if x < 10{
+        print 100
+    }
+    else{
+        x = 200
+    }
+    print x
+}

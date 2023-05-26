@@ -1,0 +1,33 @@
+func y():void{
+    var z : bool
+    while z {
+        var x : bool
+        while x {
+            var a : bool
+            while a{
+                print 234
+                if z{
+                    print 234
+                }
+                else{
+                    print 234
+                }
+                if x{
+                    print 234
+                }
+                else{
+                    print 234
+                }
+            }
+        }
+    }
+}
+func x():void{
+    call y()
+}
+func w():void{
+    call x()
+}
+func main():void{
+    call w()
+}

@@ -1,0 +1,13 @@
+func f(b:bool):bool{
+    var c : bool 
+    c = false
+    b = b or c 
+    b = b and c 
+    return b
+}
+func main():void{
+    var ans: bool
+    ans = not(f(true))
+    ans = f(f(f(true))) or not(f(true)) and f(f(f(false))) or f(f(f(true)))
+    print ans
+}

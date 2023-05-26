@@ -1,0 +1,25 @@
+func foo1(){
+    print 200
+}
+func foo2(){
+    print 300
+}
+func foo3(){
+    print 400
+}
+func foo(x:int, y:int){
+    if x < 10{
+        if y < 10{
+            call foo1()
+        }
+        else{
+            call foo2()
+        }
+    }
+    else{
+        call foo3()
+    }
+}
+func main(){
+    call foo(9,9)
+}

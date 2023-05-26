@@ -1,0 +1,46 @@
+func compare(a : int , b : int){
+    var ans : bool 
+    ans = a != b
+    print ans
+}
+func compare1(a : int , b : int){
+     var ans : bool
+     a = a + 10 
+     ans = (a <= b)
+     print ans
+}
+func compare2(a : int , b : int):bool{
+    var ans : bool
+    a = a + 100 
+    ans = (a >= b)
+    print(ans)
+    return ans
+}
+func compare3(a : int , b : int):bool{
+    var ans : bool
+    a = a + 200 
+    ans = (a <= b)
+    print(ans)
+    return ans
+}
+func main(){
+    var a : int 
+    var b : int 
+    a = 20
+    b = 30
+    call compare(a,b)
+    call compare1(a, b)
+    {
+        var ans : bool 
+        ans = compare2(a,b)
+        print ans
+    }
+    {
+        {
+            var ans : bool 
+            ans = compare3(a,b)
+            print ans
+        }
+    }
+
+}

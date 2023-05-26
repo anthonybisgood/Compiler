@@ -1,0 +1,11 @@
+func main() : void{
+    var x : int
+    var flag : bool
+    flag = true
+    x = 10
+    while flag {
+        print x
+        x = x + 1
+        flag = x != 20
+    }
+}

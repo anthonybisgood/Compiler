@@ -1,0 +1,7 @@
+func main():void{
+    var a : int
+    var b : int
+    var c : int
+    var d : int
+    print 0
+}

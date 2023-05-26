@@ -1,0 +1,9 @@
+func main():void{
+    var x : int 
+    var y : int 
+    var ans : int 
+    x = 10 
+    y = 20
+    ans = x * y 
+    print ans
+}

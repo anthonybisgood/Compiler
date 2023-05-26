@@ -1,0 +1,12 @@
+func main() : void{
+    var x : bool 
+    var y: bool 
+    x = true
+    y = true 
+    {
+        var ans : bool 
+        ans = x < y 
+        print(ans)
+    }
+}
+// invalid comparison types

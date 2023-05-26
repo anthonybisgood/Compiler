@@ -1,0 +1,32 @@
+func f1(a:int,b:int, c: int):int{
+    {
+        {
+            var c:int
+        }
+        {
+            {
+                var b: int
+                print b
+            }
+        }
+    }
+    return 100
+}
+func main(){
+    var a : int
+    var b: int
+    var c: int 
+    {
+        print 11 
+        print 12
+    }
+    {
+        {
+            print 13
+            {
+                print 13
+            }
+        }
+    }
+    print f1(a,b,c)
+}

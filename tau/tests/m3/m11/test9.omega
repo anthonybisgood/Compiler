@@ -1,0 +1,26 @@
+func f1(x:int){
+    var i : int 
+    var b : bool 
+    var c : int
+    b = false
+    c = 0
+    i = 0
+    while x > 0 {
+        if c == 1{
+            b = not(b)
+            c = c - 1
+        }else{
+            b = b
+            c = c + 1
+        }
+        i = i + 10 
+        x = x - 1
+    }
+    print b
+    print i
+}
+func main(){
+    var x : int 
+    x = 10 
+    call f1(x)
+}

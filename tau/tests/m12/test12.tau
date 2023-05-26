@@ -1,0 +1,38 @@
+func foo1(n:int):int{
+    print 101
+    print 102
+    {
+        print 102
+        {
+            return 10
+        }
+    }
+}
+func f1(i:int, j:int, k:int, m:int) : void{
+    var n : int
+    print i
+    print j 
+    {
+        print 10
+        {
+            print 11
+        }
+        {
+            var a: int
+        }
+        print foo1(n)
+    }
+}
+func main() : int{
+    var i : int
+    var j : int
+    {
+        var k : int
+        {
+            var m : int
+            {
+                call f1(i, j ,k ,m)
+            }
+        }
+    }
+}

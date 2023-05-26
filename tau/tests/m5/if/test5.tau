@@ -1,0 +1,25 @@
+func foo1():void{
+    print 200
+}
+func foo2():void{
+    print 300
+}
+func foo3():void{
+    print 400
+}
+func foo(x:int, y:int):void{
+    if x < 10{
+        if y < 10{
+            call foo1()
+        }
+        else{
+            call foo2()
+        }
+    }
+    else{
+        call foo3()
+    }
+}
+func main():void{
+    call foo(9,9)
+}

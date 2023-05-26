@@ -1,0 +1,45 @@
+func occ(k:int):int{
+    var l : int
+    var i : int 
+    var occr : int
+    occr = 0
+    i = 0
+    l = 5
+    while i < l{
+        if i > 0{
+            occr = occr + 1
+        }
+        print occr
+        if i < 10 {
+            occr = occr + 3 
+        }
+        print occr
+        if i == 0 {
+            occr = occr + 10
+        }
+        print occr
+        if i != 100{
+            occr = occr * 2
+        }
+        print occr
+        if i <= 4{
+            occr = occr / 3
+        }
+        print occr
+        if occr >= 2 {
+            occr = occr + 10 - 30 * 2
+        }
+        print occr
+        i = i + 1
+    }
+    print occr
+    return occr
+}
+func main () :void{
+    var a : int
+    var i : int
+    var k : int
+    k = 5
+    a = occ(k)
+    print a
+}

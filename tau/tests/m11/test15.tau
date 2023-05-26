@@ -1,0 +1,15 @@
+func foo() : int {
+    return 1
+}
+func bar() : int {
+    return 2
+}
+
+func main() : void{
+    if (false and true){
+        print foo()
+    }
+    if (true and (false or true)){
+        print bar()
+    }
+}

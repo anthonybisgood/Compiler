@@ -1,0 +1,49 @@
+func f1(k: bool):bool{
+    var ui: int 
+    var ut : int 
+    k = false 
+    ui = 100
+    {
+        {
+            print ui 
+        }
+        {
+            {
+                {
+                    {
+                        var yu : int 
+                        yu = 10
+                        {
+                            {
+                                var yr : bool 
+                                yr = true
+                                print yr
+                                print yu
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return k
+}
+func foo(i:int, t1: bool, k: bool){
+    print 100
+    print i 
+    print t1 
+    k = f1(t1)
+    print k
+}
+func main(){
+    var i: int 
+    var j : bool 
+    var k : bool 
+    i = 100
+    j = true 
+    k = true 
+    print(i)
+    print(j)
+    print(k)
+    call foo(i, j ,k)
+}

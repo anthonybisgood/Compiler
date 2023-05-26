@@ -1,0 +1,26 @@
+func m2(j: bool, k:int){
+    j = not(not(j))
+    j = not(not(not(not(not(j)))))
+    print j 
+    k = -(-(-(-(-(-(-(k)))))))
+    print k
+}
+func main(){
+    var k1: int 
+    var k2: bool 
+    {
+        k1 = 100 
+        {
+            k2 = false
+            {
+                k1 = 200 
+                {
+                    {
+                        k2 = true
+                        call m2(k2,k1)
+                    }
+                }
+            }
+        }
+    }
+}

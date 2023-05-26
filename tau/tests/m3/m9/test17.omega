@@ -1,0 +1,38 @@
+func m2(k:int){
+    print k
+    {
+        print 10
+        {
+            var c : int 
+            print c
+        }
+    }
+}
+func m1(b:int){
+    print b
+    {
+        var b: int 
+        {
+            {
+                call m2(b)
+            }
+        }
+    }
+}
+func main(){
+    var b: int 
+    {
+        print b
+        {
+            print 10
+            {
+                print 11
+                {
+                    {
+                        call m1(b)
+                    }
+                }
+            }
+        }
+    }
+}

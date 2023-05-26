@@ -1,0 +1,15 @@
+func foo() : int {
+     print (100 / 10 * 10)
+     return 100 / 10 * 10
+}
+func main():void{
+    var a : int
+    var b : int
+    var c : int
+    a = 10
+    b = 20
+    c = 30 
+    print a + b * c
+    a = foo()
+    print a
+}

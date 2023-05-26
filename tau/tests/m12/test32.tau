@@ -1,0 +1,37 @@
+func sum(j : int ) : void{
+    var l : int 
+    var sum : int
+    var seed : int 
+    var comp : bool 
+    seed = 5
+    comp = true 
+    sum = 0
+    l = 0
+    while l < 3{
+        sum = sum + seed
+        seed = seed + 50 
+        seed = seed * 7 
+        seed = seed / 9 
+        if seed < 100 {
+            seed = seed + 100
+        }
+        if seed > 100 {
+            seed = seed - 10
+        }
+        if (comp){
+            comp = not(comp)
+        }
+        else{
+            comp = not(not(comp))
+        }
+        l = l + 1
+    }
+    print sum
+}
+func main() : void{
+    var sum1 : int
+    var i : int
+    var l : int
+    sum1 = 10 
+    call sum(sum1)
+}

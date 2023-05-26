@@ -1,0 +1,23 @@
+func f1(i: int):int{
+    i = -i 
+    {
+        var j: int 
+        {
+            j = 200 
+            print j 
+            {
+                {
+                    j = -300
+                }
+                print j
+            }
+        }
+    }
+    i = -(-(-(-(i))))
+    return i 
+}
+func main(){
+    var i : int
+    i = f1(100)
+    print i 
+}

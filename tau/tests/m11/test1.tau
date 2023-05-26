@@ -1,0 +1,9 @@
+func main() : void{
+    var i : int 
+    var m : int 
+    i = 10 
+    if i < 10{
+        print 23
+    }
+    print 45
+}

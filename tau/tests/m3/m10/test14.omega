@@ -1,0 +1,21 @@
+func rev(k: bool){
+    k = not(not(k))
+    {
+        {
+            k = not(k)
+            {
+                {
+                    {
+                        k = not(k)
+                    }
+                }
+            }
+        }
+    }
+    print k
+}
+func main(){
+    var k: bool 
+    k = true 
+    call rev(k)
+}

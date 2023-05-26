@@ -1,0 +1,15 @@
+func foo(a : int) : void{
+    print a + 10 
+
+}
+
+func main() : void {
+    var a : int
+    var b : int
+    a = 10
+    b = 65
+    call foo(a+b)
+    call foo(a-b)
+    call foo(a * b)
+    call foo(b / a)
+}

@@ -1,0 +1,6 @@
+func main():void{
+    if false{
+        print 5
+    }
+    print 51
+}

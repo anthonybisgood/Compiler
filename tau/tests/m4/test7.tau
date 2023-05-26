@@ -1,0 +1,20 @@
+func a( i: int):int {
+    return i
+}
+func b( i: int):int {
+    return i
+}
+func foo() :void{
+    print 1
+}
+func main():void{
+    var c : int 
+    var d : int
+    var e : bool
+    if e{
+        call a(c)
+    }else{
+        call b(d)
+        call foo()
+    }
+}

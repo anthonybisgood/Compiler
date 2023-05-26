@@ -1,0 +1,7 @@
+func main() : void{
+    var x : int 
+    x = true 
+    print x
+}
+
+// x is type int.

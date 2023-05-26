@@ -1,0 +1,15 @@
+func increment(a : int) : int {
+    return a + 10
+}
+func foo(a : int, b: int) : int {
+    return a + b
+}
+func main() : void {
+    var a : int 
+    a = 0
+
+    while a < 100{
+        print a 
+        a = increment(increment(a)) + foo(3, 2)
+    }
+}

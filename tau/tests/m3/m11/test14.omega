@@ -1,0 +1,20 @@
+func main(){
+    var a : int 
+    a = 10 
+    if (a==10){
+        a = a + 10 
+    }
+    if (a != 10){
+        a = a + 23
+    }
+    else{
+        a = a + 2
+    }
+    if a <= 43 {
+        a = a + 60
+    }
+    else{
+        a = a - 80
+    }
+    print a 
+}

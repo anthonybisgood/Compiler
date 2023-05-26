@@ -1,0 +1,24 @@
+func f1(a : bool, b : bool) : bool{
+    return a 
+}
+func f2(a : bool) : bool{
+    return a 
+}
+func foo():void{
+    var a : bool
+    var b : bool
+    a = true
+    b = false
+    if a {
+        var c : bool
+        c = f1(a, b)
+        print c
+    }else{
+        var c : bool
+        c = f2(a)
+        print c
+    }
+}
+func main():void{
+    call foo()
+}

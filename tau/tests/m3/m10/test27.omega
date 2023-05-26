@@ -1,0 +1,30 @@
+func main(){
+    var k : int 
+    var z : int 
+    k = 290 
+    z = 90 
+    {
+        k = k + z 
+        {
+            var t : int
+            {
+                t = t + k 
+                print t 
+                {
+                    {
+                        var r : int 
+                        {
+                            r = 100
+                            { 
+                                {
+                                    r = r + t + k
+                                    print r
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+func f(a:int):int{
+    var b : int
+    b = a + 100
+    return b
+}
+func foo(a:int):int{
+    var b : int
+    b = a + 100
+    return b
+}
+func main():void{
+    var aa : int 
+    var bb : int
+    var cc : int
+    var dd : int
+    var ee : int
+    aa = 1
+    bb = f(f(f(f(f(aa))))) + foo(1)
+    print bb
+}

@@ -1,0 +1,16 @@
+func f1(m:int, k:int){
+    var t : int 
+    t = - 100
+    m = m + k 
+    k = k - t 
+    t = -t 
+    k = k + t - m
+    print k
+}
+func main(){
+    var k : int 
+    var m : int 
+    k = 90 
+    m = 20 
+    call f1(k,m)
+}

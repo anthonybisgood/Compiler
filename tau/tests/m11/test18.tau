@@ -1,0 +1,7 @@
+func main() : void{
+    var x : int 
+    x = 10 
+    x = x + 10 - 20 - 800 / 40 * 4 
+    x = -(x)
+    print x
+}

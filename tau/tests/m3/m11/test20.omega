@@ -1,0 +1,28 @@
+func fib(x:int):int{
+    if x <= 1{return x}
+    return fib(x-1) + fib(x-2)
+}
+func main(){   
+    var n : int 
+    n = 20
+    print fib(n)
+    n = 8 
+    print fib(n)
+    n = 12 
+    print fib(n)
+    {
+        var m : int 
+        {
+            m = 5 
+            {
+                print fib(5)
+            }
+            {
+                print fib(6)
+            }
+        }
+        {
+            print fib(10)
+        }
+    }
+}

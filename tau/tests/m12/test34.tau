@@ -1,0 +1,20 @@
+func f(a : int, b : bool) : void {
+    print a + 100
+    print not(b)
+    print -a
+}
+func main() : int {
+    var a : int
+    var b : int
+    a = 10
+    b = 20
+    call f(a * b + ( a * -(b)) , a < b)
+    call f(a * b + ( a * -(b)) , a > b)
+    a = a + 10
+    call f(a * b + ( a * -(b)) , a <= b)
+    a = a + 1
+    call f(a * b + ( a * -(b)) , a >= b)
+    b = b + 11
+    call f(a * b + ( a * -(b)) , a == b)
+    call f(a * b + ( a * -(b)) , a != b)
+}

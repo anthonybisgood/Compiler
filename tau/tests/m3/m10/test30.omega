@@ -1,0 +1,72 @@
+func f3(){
+    var g : int 
+    g = 100 
+    g = 100 + g * g 
+    {
+        g = -(-(-(g)))
+        {
+            g = g + 90 
+            {
+                {
+                    g = g - 876
+                }
+            }
+        }
+        print g 
+    }
+    {
+        g = 200 
+        {
+            g = 290 + 67 + g
+        }
+        {
+            g = g + 2345 / 78 
+            g = -(-(-(g)))
+        }
+        print g
+    }
+}
+func f2(){
+    var t : int 
+    var k : int 
+    t = 900 
+    k = t + 90 
+    {
+        t = t + k 
+        {
+            t = t - k * k / 56
+        }
+        {
+            t = t - k * k / 5
+            {
+                t = t - k * k / 87
+            }
+        }
+    }
+    print k 
+    print t
+}
+func f1(){
+    var m : int 
+    m = 100 
+    {
+        m = m + 90
+        {
+            {
+                m = m - 90
+                {
+                    m = m * 2 / 7 
+                }
+            }
+        }
+        {
+            m = m + 1000 - 200 + 30 
+        }
+        print m
+    }
+}
+func main(){
+    call f1()
+    call f2()
+    call f3()
+}

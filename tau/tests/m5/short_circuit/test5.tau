@@ -1,0 +1,17 @@
+func foo():bool{
+    print 10
+    return false
+}
+func main():void{
+    var x : int 
+    x = 0
+    if false or foo(){
+        x = 20
+    }
+    else{
+        print 89
+        print 29
+        print x
+    }
+    
+}

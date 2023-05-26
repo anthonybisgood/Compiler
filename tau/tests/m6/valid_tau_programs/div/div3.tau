@@ -1,0 +1,6 @@
+func main():void{
+    print 100 / 2 / 2 / 2
+    print 500 / 4 / 5 / 5
+    print 1000 / 10 / 10 / 10
+    print 10000 / 10 / 2 / 3
+}

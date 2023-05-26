@@ -1,0 +1,8 @@
+func main() : void{
+    var b : bool 
+    var c : bool 
+    b = true 
+    c = false
+    b = b / c
+}
+// / should have int operands

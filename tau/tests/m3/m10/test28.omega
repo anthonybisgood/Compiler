@@ -1,0 +1,20 @@
+func main(){
+    var t : int  
+    var z : int 
+    t = 200 
+    z = 2000 
+    {
+        t = t + (-z)
+        print t
+        {
+            t = t + -(-(t))
+        }
+        {
+            var y : int 
+            y = 200 
+            y = y + t 
+            y = y * t + z 
+            print y
+        }
+    }
+}

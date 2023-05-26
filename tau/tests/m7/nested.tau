@@ -1,0 +1,34 @@
+func a(b:int, c:int): void {
+	var a:int
+	var b:int
+	a = b+c
+	{
+		var a:int
+		var c:int
+		a = b+c
+		{
+			var b:int
+			var c:int
+			a = b+c
+		}
+		a = b+c
+	}
+	a = b+c
+}
+func b(b:int, c:int): void {
+	var a:int
+	var b:int
+	a = b+c
+	{
+		var a:int
+		var c:int
+		a = b+c
+		{
+			var b:int
+			var c:int
+			a = b+c
+		}
+		a = b+c
+	}
+	a = b+c
+}

@@ -1,0 +1,25 @@
+func f1(i:int){
+    var k : int 
+    k = 100
+    {
+        var k: int 
+        k = 200 
+        print k 
+        {
+            {
+                var k: int 
+                k = 300
+                print k
+            }
+        }
+    }
+}
+func f2(i:int){
+    print i 
+    call f1(i)
+}
+func main(){
+    var j : int 
+    j = 10 
+    call f2(j)
+}

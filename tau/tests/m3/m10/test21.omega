@@ -1,0 +1,13 @@
+func sumofnums(x:int, y:int):int{
+    return x + y
+}
+
+func main(){
+    var x: int 
+    var y: int 
+    var ans : int
+    x = 200 
+    y = 300
+    ans = sumofnums(x,y)
+    print ans
+}

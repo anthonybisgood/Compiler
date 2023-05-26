@@ -1,0 +1,53 @@
+func add(x:int, y:int):int{
+    if x > 0 and y > 0{
+        return x+y
+    }
+    else{
+        return 0
+    }
+}
+func subtract(x:int, y:int):int{
+    if x > 0 and y > 0{
+        return x - y
+    }
+    else{
+        return 0
+    }
+}
+func multiply(x:int, y:int):int{
+    if x > 0 and y > 0{
+        return x * y
+    }
+    else{
+        return 0
+    }
+}
+func divide(x:int, y: int):int{
+    {
+        x = 90 
+        y = 90 
+        if x > y and y > 0{
+            print x / y
+        }
+        else{
+            print 90   
+        }
+    }
+    if x > y and y > 0{
+        return x /y
+    }
+    else{
+        return 0
+    }
+    
+}
+func main() : void{
+    var x : int 
+    var y: int 
+    x = 100 
+    y = 20
+    print add(x,y)
+    print subtract(x,y)
+    print multiply(x,y)
+    print divide(x,y)
+}

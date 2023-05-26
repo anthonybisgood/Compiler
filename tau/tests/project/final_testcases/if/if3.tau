@@ -1,0 +1,18 @@
+func main() : void{
+    var x : int 
+    var y : int
+    x = 100
+    y = 200
+    if x < 10{
+        if y < 10{
+            print x 
+            print y
+        }
+        else{
+            print x
+        }
+    }
+    else{
+        print 100
+    }
+}

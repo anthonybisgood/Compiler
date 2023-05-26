@@ -1,0 +1,4 @@
+func a(): void {
+	var b:int
+}
+

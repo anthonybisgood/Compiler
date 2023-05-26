@@ -1,0 +1,31 @@
+func comp(i:int, j:int, c:int):bool{
+    var v : bool 
+    i = i + 100 - j 
+    j = j - 90 + c
+    v = i != j 
+    return v
+}
+func main(){
+    var i : int 
+    var j: int 
+    var c : int 
+    j = 10 
+    j = 20 
+    {
+        c = 30 
+        j = i + j - 20 + c 
+        {
+            var comp : bool 
+            comp = c < j
+            print comp
+        }
+        {
+            j = 100 
+            {
+                var ans : bool 
+                ans = comp(i,j,c)
+                print ans
+            }
+        }
+    }
+}

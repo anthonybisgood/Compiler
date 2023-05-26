@@ -1,0 +1,12 @@
+func dummy(a : []int): void {
+    var b : [2+2] int
+
+    b[2] = a[1]
+}
+func main():void{
+    var b : [2] int
+    b[0] = 1
+    b[1] = 2
+    b[0] = 3
+    b[1] = 4
+}

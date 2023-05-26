@@ -1,0 +1,10 @@
+func f(x:int) : void{
+    print x 
+    y = x 
+    print y
+}
+func main() : void{
+    call f1(12)
+}
+// undefined symbol at line 3
+// function is not defined but called

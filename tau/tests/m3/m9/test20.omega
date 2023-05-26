@@ -1,0 +1,54 @@
+func g(z:int):int{
+    print z 
+    {
+        {
+            print 600
+            {
+                {
+                    print 650
+                    {
+                        var b : int 
+                        {
+                            {
+                                print z
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return 200 
+}
+func f(a:int, b: int, c:int){
+    print 2
+    {
+        {
+            {
+                print c
+            }
+        }
+    }
+    print g(a)
+    print 3
+    {
+        print g(b)
+    }
+}
+func main(){
+    var a: int
+    var b: int 
+    var c: int 
+    var d: int
+    print 4
+    {
+        {
+            {
+                print a
+            }
+        }
+    }
+    call f(a,b,c)
+    print g(d)
+    print 5
+}

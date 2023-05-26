@@ -1,0 +1,7 @@
+func main() : void{
+    var x : int
+    var y : int 
+     x = 0 
+     y = true
+}
+// y is type int but assigned true.

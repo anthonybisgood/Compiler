@@ -1,0 +1,9 @@
+func main() : void{
+    var j : bool
+    j = true
+    j = not(j)
+    print j
+    j = not(not(j))
+    j = not(j)
+    print j
+}

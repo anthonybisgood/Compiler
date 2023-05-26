@@ -1,0 +1,7 @@
+func f(x:int):int{
+    x = x + 10 
+    return x
+}
+func main(){
+    print f(f(12) + f(12))
+}

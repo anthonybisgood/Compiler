@@ -1,0 +1,16 @@
+func main() : void {
+    var a : bool 
+    var k : int
+    k = 20
+    a = true
+
+
+    while (a and true) or false {
+        print 2
+        k = k - 1
+        if k < 0 {
+            a = false
+        }
+
+    } 
+}

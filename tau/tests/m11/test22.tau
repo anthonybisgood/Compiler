@@ -1,0 +1,15 @@
+func main() : void{
+    var b : bool 
+    var i : int 
+    b = true
+    i  = 10 
+    while i < 20 {
+        if i < 15{
+            b = not(b)
+        }
+        b = not(not(true))
+        i = i + 2
+        print b
+    }
+    print b
+}

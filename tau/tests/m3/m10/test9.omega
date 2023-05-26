@@ -1,0 +1,6 @@
+func main(){
+    var t1: bool 
+    t1 = true 
+    t1 = not(not(not(not(not(t1)))))
+    print t1
+}

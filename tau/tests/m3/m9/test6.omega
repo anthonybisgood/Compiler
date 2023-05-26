@@ -1,0 +1,49 @@
+func foo(a:int, b:int, c:int, d:int){
+    print a 
+    print b 
+    print c 
+    print d 
+    print 5 
+    {
+        print 6
+    }
+}
+func foo1(a:int,b:int,c:int):int{
+    print 5
+    {
+        print 7 
+        {
+            print 9
+        }
+    }
+    return 1
+}
+func foo2(a:int,b:int,d:int):int{
+    print 101
+    {
+        print a 
+        {
+            print b
+            {
+                print d
+            }
+        }
+    }
+    return 20
+}
+func main(){
+    var a : int 
+    var b : int 
+    {
+        var c : int 
+        print c 
+        print 5
+        {
+            var d : int 
+            print 6
+            call foo(a,b,c,d)
+            print foo1(a,b,c)
+            print foo2(a,b,d)
+        }
+    }
+}

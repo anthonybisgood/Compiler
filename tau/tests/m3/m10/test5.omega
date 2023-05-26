@@ -1,0 +1,37 @@
+func fun2():int{
+    print 1 
+    print 2 
+    {
+        {
+            print 3
+            {
+                var op : bool 
+                op = false
+                print op
+            }
+        }
+    }
+    return 234
+}
+func fun1(k: int){
+    print k
+    k = 200
+    {
+        print k
+    }
+    {
+        {
+            var j : int 
+            j = fun2()
+            print j
+        }
+    }
+}
+func main(){
+    var k : int 
+    k = 100
+    print k
+    call fun1(k)
+    k = fun2()
+    print k
+}

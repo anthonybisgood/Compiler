@@ -1,0 +1,15 @@
+func a() : int{
+    return 123
+}
+func b() : int{
+    return 456
+}
+func main():void{
+    var c : bool 
+    if c{
+        call a()
+    }
+    else{
+        call b()
+    }
+}

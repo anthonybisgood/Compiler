@@ -1,0 +1,11 @@
+func foo(a : int, b : int) : int {
+    print a + b
+    return a + b
+}
+func main() : void {
+    var a : int
+    var b : int
+    a = 90
+    b = 10
+    call foo(foo(a, b), foo(a, b))
+}

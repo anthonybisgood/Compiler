@@ -1,0 +1,10 @@
+func main() : void {
+    // print some thing
+    // created a complex expression
+    print ((1 + 2) * 3 -( -4 + 5) + 6 * 7 / 8)
+    print true
+    print false
+    print 1
+    print 100
+    print 99999 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 // /10000
+}

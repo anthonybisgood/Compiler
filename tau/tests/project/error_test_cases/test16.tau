@@ -1,0 +1,8 @@
+func main() : void{
+    var y : bool 
+    y = false
+    if (y > 10){
+        print 12
+    }
+}
+// cannot compare bool with int 

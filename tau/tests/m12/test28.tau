@@ -1,0 +1,10 @@
+func f1(x:bool):bool{
+    return false
+}
+func main() : void{
+    var x : bool 
+    x = true 
+    x = not(f1(x))
+    x = not(not(not(f1(x))))
+    print x
+}

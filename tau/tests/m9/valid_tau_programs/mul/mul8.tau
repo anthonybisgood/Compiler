@@ -1,0 +1,20 @@
+func main():void{
+    var a : int 
+    var ccv : int
+    var b : int
+    var c : int
+    var d : int
+    var e : int
+    a = 10009
+    b = a * 100000
+    c = b * a * 100000 * 100000
+    d = c * b * a * 100000 * 100000 * 100000
+    e = d * c * b * a * 100000 * 100000 * 100000 * 100000
+    ccv = e * d * c * b * a * 100000 * 100000 * 100000 * 100000 * 100000
+    print(ccv)
+    print(a)
+    print(b)
+    print(c)
+    print(d)
+    print(e)
+}

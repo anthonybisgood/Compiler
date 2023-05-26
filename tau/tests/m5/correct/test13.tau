@@ -1,0 +1,22 @@
+func g():int{
+    return 1 
+}
+func e():int{
+    return 2 + g()
+}
+func f1():int{
+    return 3 + g() + e()
+}
+func f(x:int, y:int, z:int):int{
+    x = x + g()
+    y = y + g()
+    return x + y + z
+}
+func main():void{
+    var i : int 
+    i = 0 
+    while i < 5{
+        print f(g(), e(), f1())
+        i =  i + 1
+    }
+}

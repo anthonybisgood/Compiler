@@ -1,0 +1,21 @@
+func f1(x:int):int{
+    if x > 10{
+        x = x + 10
+    }
+    else{
+        x = x + x
+    }
+    return x
+}
+func f2(y:int):int{
+    y = y * 2
+    return y
+}
+func main():void{
+    var y : int
+    var x : int 
+    x = 19
+    y = 4
+    print f1(f1(x))
+    print f2(f2(x) + f1(y) + f2(x+y))
+}

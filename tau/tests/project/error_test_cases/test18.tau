@@ -1,0 +1,9 @@
+func main() : void{
+    {
+        var x: int 
+        x = 100
+        x = x + 90
+    }
+    print x
+}
+// printing the value of x outside the scope of x

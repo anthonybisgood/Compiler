@@ -1,0 +1,7 @@
+func foo() :void{
+    print 123
+}
+
+func main() :void{
+    call foo()
+}

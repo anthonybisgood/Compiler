@@ -1,0 +1,8 @@
+func main(){
+    var test1: bool 
+    var test2: bool
+    test1 = false 
+    test2 = true
+    print(not(test1))
+    print(not(test2))
+}

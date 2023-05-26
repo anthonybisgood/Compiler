@@ -1,0 +1,29 @@
+func foo1(t:int, j:int, m:bool):bool{ 
+    var c : int 
+    var d: int 
+    var g : int 
+    c = 100
+    g = -10
+    d = 234
+    print m 
+    t = t + d - g
+    j= t + d + g * c / g
+    print t 
+    print j 
+    {
+        { 
+            t = t + c + d / g
+            print t 
+        }
+    }
+    return false
+}
+func main(){
+    var t : int 
+    var j : int 
+    var m: bool 
+    t = 10 
+    j = 298 
+    print t+j
+    m = foo1(t,j,m)
+}

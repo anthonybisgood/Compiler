@@ -1,0 +1,27 @@
+func fo1() : void {
+    var a : bool
+    a = 10 >= 4
+    print(a)
+}
+func main2() : bool {
+    var a : bool
+    a = 2 < 2
+    return a
+}
+func f00() : void {
+    var a : bool
+    a = 2 == 2
+    print(a)
+}
+func foo():void{
+    var b : bool
+    b = 2 < 1
+    print b
+    call f00()
+    call fo1()
+}
+
+func main():void{
+    print 1 < 2
+    call foo()
+}

@@ -1,0 +1,14 @@
+func foo1() : void{
+    print 4 
+    {
+        print 5
+    }
+}
+func foo2() : void{
+    print 6
+}
+func main() : int{
+    call foo1()
+    call foo2()
+    return 10
+}

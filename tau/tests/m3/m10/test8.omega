@@ -1,0 +1,18 @@
+func f1(i: int, j:bool){
+    print i 
+    print j
+}
+func main(){
+    var t1 : bool 
+    t1 = false
+    {
+        var t2 : int 
+        t2 = 100 
+        {
+            {
+                print t2
+            }
+        call f1(-t2, not(t1))
+        }
+    }
+}

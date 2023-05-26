@@ -1,0 +1,13 @@
+func foo(x:int, y: int):bool{
+    var z : int 
+    z = x + y
+    if z > 0 {
+        return 10
+    }else{
+        return false
+    }
+}
+func main() : void{
+    call foo(10, 10)
+}
+// invalid return type

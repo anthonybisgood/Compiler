@@ -1,0 +1,10 @@
+func foo(x:bool) : void {
+    print x
+}
+func main():void{
+    var x : int 
+    var y : int 
+    x = 10 
+    y = 20 
+    call foo(x < y)
+}

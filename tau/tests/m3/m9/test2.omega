@@ -1,0 +1,24 @@
+func foo1(b:int){
+    print b 
+    {
+        print 3
+    }
+}
+func foo2(b:int){
+    {
+        print 1
+    }
+}
+func main(){
+    var a : int 
+    var c : int
+    {
+        var b: int 
+        var c: int 
+    }
+    {
+        var d : int
+    }
+    call foo1(a)
+    call foo2(c)
+}

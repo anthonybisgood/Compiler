@@ -1,0 +1,12 @@
+func f(x:int):int{
+    x = x + 1
+    return x
+}
+func f1(x:int):int{
+    x = x + 5 - 9
+    print x
+    return 23
+}
+func main():void{
+    print f(f(12) + f1(12))
+}

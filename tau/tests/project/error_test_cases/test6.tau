@@ -1,0 +1,9 @@
+func f1(x:int, y:int) : void{
+    print x 
+    y = not y 
+    print y
+}
+func main() : void{
+    call f1(1, 2)
+}
+// not applied to int

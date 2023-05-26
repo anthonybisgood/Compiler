@@ -1,0 +1,13 @@
+func foo(a : int) : int {
+    if (a > 7) {
+        return a + 9 * 2
+    } else {
+        return 0
+    }
+}
+func main():void{
+    var a : int 
+    a = 10
+    a = foo(a)
+    print(a)
+}

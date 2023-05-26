@@ -1,0 +1,10 @@
+func f1() : void{
+    var t : int
+    t = 1000  + 1000 - 1000 * 1000 / 1000 + 1000
+    print t
+}
+func main() : void{
+    var t1 : int 
+    t1 = 1000
+    call f1()
+}

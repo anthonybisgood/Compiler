@@ -1,0 +1,28 @@
+func f1(a:int){
+    print 1 
+    print 2 
+    {
+        print 3 
+        {
+            print 4
+        }
+    }
+}
+func foo2(a:int):int{
+    print a 
+    {
+        print 10
+        {
+            print 11
+        }
+    }
+    return 100
+}
+func main(){
+    var a : int 
+    print 1 
+    print 2 
+    print 3 
+    call f1(a)
+    print foo2(a)
+}

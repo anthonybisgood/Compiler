@@ -1,0 +1,8 @@
+func main():void{
+    print 1
+    print true
+    print 3
+    print false
+    print false
+    print false
+}

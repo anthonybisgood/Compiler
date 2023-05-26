@@ -1,0 +1,23 @@
+func foo(a:int):int{
+    var j : int
+    {
+        var k : int 
+        
+    }
+    {
+        var m : int
+    }
+    return 10
+}
+func main(){
+    var a: int
+    var b : int 
+    var c : int 
+    {
+        print foo(a)
+    }
+    {
+        print foo(b)
+    }
+    print c
+}

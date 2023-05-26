@@ -1,0 +1,32 @@
+func f1() : int {
+    var x : int 
+    x = 1
+    if x == 1 {
+        return 1
+    } else {
+        return 2
+    }
+}
+func f2() : int {
+    var x : int 
+    x = 1
+    if x == 1 {
+        return 1
+    } else {
+        return 2
+    }
+}
+func main() : void {
+    call f1()
+    call f1()
+    call f2()
+    {
+        var x : int 
+        x = 10 
+        while x - 3 > 0 {
+            x = x - 1
+            call f1()
+            call f2()
+        }
+    }
+}

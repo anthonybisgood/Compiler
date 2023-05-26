@@ -1,0 +1,17 @@
+func g(x:int):int{
+    var i : int 
+    i = 0
+    while i < 20{
+        x = x + 1
+        i = i + 1
+    }
+    print x 
+    return x
+}
+func f(x:int):void{
+    x = x + 10 
+    print x
+}
+func main():void{
+    call f(3 + 4 + g(10))
+}

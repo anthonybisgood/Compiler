@@ -1,0 +1,48 @@
+  func foo(a:int, b:int, c:int) : void{
+    print 90
+    {
+        {
+            print 91 
+            {
+                print 92
+            }
+            {
+                var m: int 
+                {
+                    {
+                        print m
+                    }
+                }
+            }
+        }
+    }
+  }
+  func boo(a:int, b:int, c:int, d:int):int{
+    print 11
+    {
+        {
+            var m1234 : int
+            print 12
+            {
+                {
+                    print m1234
+                }
+            }
+        }
+    }
+    return 97
+  }
+  func main() : void{
+    var a: int 
+    var b: int 
+    var c : int
+    {
+        call foo(a,b,c)
+    }
+    {
+        {
+            var d: int 
+            print boo(a,b,c,d)
+        }
+    }
+  }

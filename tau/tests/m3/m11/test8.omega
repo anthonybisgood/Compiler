@@ -1,0 +1,18 @@
+func main(){
+    var a: bool 
+    var b : bool 
+    var ans : bool
+    a = true 
+    b = false
+    {
+        ans = a and b or b
+        {
+            print ans
+        }
+    }
+    {
+        ans = a or b or a 
+        ans = a and b or a
+        print ans
+    }
+}

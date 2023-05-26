@@ -1,0 +1,11 @@
+func foo() : bool {
+    var a : int
+    if a == 0{
+        return false
+    }
+    return true
+}
+func main(): void{
+    print true and (foo() + 10)
+}
+// invalid oprands for +

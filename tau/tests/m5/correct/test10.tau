@@ -1,0 +1,14 @@
+func f(x:int):int{
+    return x + 10
+}
+    
+
+func main():void{
+    var x : int 
+    x = 10 
+    if x > f(12)+f(13){
+        print 112
+    }else{
+        print 1234
+    }
+}

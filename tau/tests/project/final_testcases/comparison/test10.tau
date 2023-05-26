@@ -1,0 +1,7 @@
+func main() : void {
+    var a : bool
+    var b : bool
+    a = true
+    b = false
+    print a < b
+}

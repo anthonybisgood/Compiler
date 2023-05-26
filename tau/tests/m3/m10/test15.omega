@@ -1,0 +1,47 @@
+func negate2(i: int):int{
+    i = -(-i)
+    i = -i 
+    i = -i 
+    i = -(-(-(-(i))))
+    return -i
+}
+func negate(i: int):int{
+    i = -(-i)
+    i = -i 
+    i = -i 
+    i = -(-(-(-(i))))
+    i = negate2(i)
+    return i 
+}
+func main(){
+    var m : int 
+    var j : int 
+    j = 1000 
+    print j 
+    {
+        var i : int 
+        {
+            {
+                i = 200
+            }
+            print i 
+        }
+    }
+    m = negate(j)
+    {
+        {
+            {
+                var t: int 
+                t = 100 
+                print t 
+                {
+                    var m : int 
+                    {
+                        m = 200 
+                    }
+                }
+            }
+        }
+    }
+    print m
+}

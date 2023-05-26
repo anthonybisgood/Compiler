@@ -1,0 +1,7 @@
+func main() : void {
+    var a  : int
+    var b  : int
+    b = 1234567 / 1 / (9000 / 813 / 7 )
+    print a 
+    print b
+}

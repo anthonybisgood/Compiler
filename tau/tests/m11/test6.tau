@@ -1,0 +1,12 @@
+func main() : void{
+    var x : int
+    var ans1 : int
+    x = 7
+    if x == 9 or x >= 5{
+        ans1 = 1
+    }
+    else{
+        ans1 = 0
+    }
+    print ans1   
+}

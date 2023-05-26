@@ -1,0 +1,9 @@
+func f2(x:int, y:int):int{
+    return x + y
+}
+func f1(x:int, y:int):int{
+    return x + y
+}
+func main():void{
+    print f1(1,2) + f2(3,4)
+}

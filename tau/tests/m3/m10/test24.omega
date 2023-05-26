@@ -1,0 +1,26 @@
+func f1(o:int):int{
+    var t : int 
+    t = 200 
+    t = t * o 
+    t = t - o 
+    t = t / o + t - o 
+    return t
+}
+func f2(l:int):int{
+    var m : int 
+    m = 900 - 200 / 65 + l 
+    print l 
+    m = m + l 
+    print m 
+    print f1(m)
+    return m
+}
+func main(){
+    var k : int 
+    k = k + 100 
+    k = k - 100 
+    k = 300 + 400 - k
+    print k 
+    print f1(k)
+    print f2(k)
+}

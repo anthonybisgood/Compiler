@@ -1,0 +1,10 @@
+func foo(x:int){
+    x = x + 10
+    print x 
+    return 200
+}
+func main() : void{
+    var ans: int 
+    ans = foo(12)
+}
+// return type is not defined

@@ -1,0 +1,11 @@
+func f1():void{
+    var a : int 
+    a = 2
+    print a
+}
+func main():void{
+    var a : int 
+    a = 1
+    print a
+    call f1()
+}

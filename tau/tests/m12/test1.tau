@@ -1,0 +1,26 @@
+func foo1(a : int) : void{
+    print 9 
+    {
+        print 10
+    }
+    {
+        print 11
+    }
+    print a
+}
+func main() : void{
+    call foo1(12)
+    print 3
+    {
+        print 4
+    }
+    {
+        print 6
+    }
+    print 100
+    print 200 
+    {
+        print 7
+    }
+    call foo1(10)
+}

@@ -1,0 +1,16 @@
+func g(x:int):int{
+    print x + 10
+    return x + 10
+}
+func f(x:int):int{
+    x = x + 10 
+    x = x + (-x) * 10 + -(-x) * 10
+    call g( x + (-x) * 10 + -(-x) * 10)
+    return x
+}
+func main() : void{
+    var x : int 
+    x = 0
+    x = x + f(x)
+    print x
+}

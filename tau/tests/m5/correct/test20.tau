@@ -1,0 +1,10 @@
+func g(a:int, b:int, c:int):int{
+    a = a + b + c
+    return a
+}
+func f1(x:int, y:int, z:int, a:int,b:int, c:int):int{
+    return x + y - a * b + c + z
+}
+func main():void{
+    print f1(1,2,3,4,5,g(1,2,3))
+}

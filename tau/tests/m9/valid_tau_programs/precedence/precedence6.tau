@@ -1,0 +1,10 @@
+func main():void{
+    var meal : bool
+    var money : int
+    meal = true
+    if ((meal or not(meal)) and money > 2){
+        print (1)
+    }else{
+        print (2)
+    }
+}

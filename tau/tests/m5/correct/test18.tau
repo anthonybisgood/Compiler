@@ -1,0 +1,21 @@
+func f1(x:bool):bool{
+    var i : int 
+    i = 0 
+    while i < 5 {
+        x = not(not(x))
+        i = i + 1
+    }
+    print x
+    return x
+}
+func f3(y:bool):bool{
+    print f1(f1(y))
+    return y or f1(f1(y))
+}
+func f(y:bool):bool{
+    y = y and f1(f3(y) and f3(f3(false)))
+    return y
+}
+func main():void{
+    print f1(f3(true) or f3(true) or f(true) and f(f(false) and f(false)))
+}

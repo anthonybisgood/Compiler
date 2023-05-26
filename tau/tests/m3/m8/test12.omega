@@ -1,0 +1,15 @@
+func g() {
+    print 1
+}
+func f() {
+    print 2
+    call g()
+    print 3
+    call g()
+}
+func main(){
+    print 4
+    call f()
+    call g()
+    print 5
+}

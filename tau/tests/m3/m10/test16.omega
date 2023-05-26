@@ -1,0 +1,39 @@
+func f1(m:int, j: bool){
+    var i : int 
+    i = m 
+    i = -(-i)
+    i = -i 
+    i = -i 
+    i = - i
+    print i 
+}
+func f2(){
+    var k : int 
+    k = 100
+    print 12 
+    print 13 
+    print 14 
+    print 17666
+    {
+        print 154
+        {
+            print 146
+            {
+                var t : int 
+                var o: bool
+                {
+                    {
+                        {
+                            t = 100
+                        }
+                        o = true 
+                        call f1(t,o)
+                    }
+                }
+            }
+        }
+    }
+}
+func main(){
+    call f2()
+}

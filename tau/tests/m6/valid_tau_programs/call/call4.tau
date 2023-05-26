@@ -1,0 +1,17 @@
+func foo1(a : int, b : int, c : int) : int{
+    var d : int
+    a = 990
+    d = a + b + c + 9998
+    return d
+}
+func foo():void{
+    var a : int 
+    var b : int
+    var c : int
+    var d : int
+    d = foo1(a,b,c)
+    print(d)
+}
+func main():void{
+    call foo()
+}

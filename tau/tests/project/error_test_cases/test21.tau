@@ -1,0 +1,13 @@
+func f1(x:int , y:int) : void{
+    print x + y
+}
+func main() : void{
+    var x : int 
+    var y : int 
+    var z : int 
+    x = 10 
+    y = x + 20 
+    z = x + y + 40
+    call f1(x , y , z)
+}
+//taking the wrong number of arguments

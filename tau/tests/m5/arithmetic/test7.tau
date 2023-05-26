@@ -1,0 +1,15 @@
+func main():void{
+    var y : int 
+    var z : int 
+    var t : int 
+    t = 10
+    y = 20
+    z = 20
+    t = t * -1 
+    z = z + t 
+    y = 90
+    y = t + t + z + y - t + z - y / 78 * 9 + 90 - 200
+    z = y - t + 100 * 60 + 90 - 56889
+    print y 
+    print z * -1 
+}

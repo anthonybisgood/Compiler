@@ -1,0 +1,14 @@
+func f(x:int):int{
+    return x + 10
+}
+func g(x:int):int{
+    return 30
+}
+func f1(y:int):int{
+    return y + 10 - 20
+}
+func main():void{
+    var x : int 
+    x = 20
+    print f(g(f1(x)) + f1(g((f1(x)))))
+}
